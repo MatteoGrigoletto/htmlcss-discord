@@ -287,9 +287,21 @@ footer section > div{
 .big-footer small{
     color: white;
 }
+/*small footer */
+.small-footer h4{
+    font-size: large;
+    color:#7289DA ;
+}
+.small-footer ul li{
+    list-style-type:none;
 
+}
 .small-footer{
     width: 210px;
+    padding: 40px ;
+}
+.small-footer h4,ul li{
+    padding-bottom: 20px;
 }
 .last-box{
     width: 100%;
