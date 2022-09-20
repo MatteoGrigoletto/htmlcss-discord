@@ -90,10 +90,18 @@ main section:nth-child(2n+2){
 .bottom-footer{
     background-color: #23272a;
 }
-.wave{
+main section:nth-child(odd)::after{
+    height: 150px;
+    content:"";
     background-image: url(../img/wave1.svg);
-    height: 60px;
-    width: 100%;
+    display: block;
+}
+main section:nth-child(1n+2)::before{
+    height: 150px;
+    content:"";
+    background-image: url(../img/wave1.svg);
+    display: block;
+    transform: rotate(180deg);
 }
 /*-------
  header
