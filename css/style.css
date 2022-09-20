@@ -91,13 +91,13 @@ main section:nth-child(2n+2){
     background-color: #23272a;
 }
 main section:nth-child(odd)::after{
-    height: 150px;
+    height: 80px;
     content:"";
     background-image: url(../img/wave1.svg);
     display: block;
 }
 main section:nth-child(1n+2)::before{
-    height: 150px;
+    height: 80px;
     content:"";
     background-image: url(../img/wave1.svg);
     display: block;
