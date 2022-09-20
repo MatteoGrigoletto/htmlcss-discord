@@ -41,8 +41,8 @@ Debugg
     background-color: #1e90ff;
     height: 500px;
 }
-.debug main section:nth-child(2n+2){
-    background-color: #d3d3d3 ;
+main section:nth-child(2n+2){
+    background-color: #F6F6F6 ;
 }
 .debug .giant-box{
     background-color: #228b22;
@@ -150,7 +150,7 @@ h1{
     font-size: 20px;
 }
 /*---------
-Button
+Buttons
 ---------*/
 button{
     border-radius: 25px;
@@ -161,10 +161,16 @@ button{
     color: black;
     background-color: white;
 }  
-.button-mac{
+.button-mac-white{
     background-color: white;
     font-size: 18px ;
     margin-right: 10px;
+}
+.button-mac-blue{
+    background-color: #7289DA;
+    font-size: 18px ;
+    margin-right: 10px;
+    color: white;
 }
 .button-browser{
     background-color: black;
@@ -177,19 +183,72 @@ button{
 /*-------
 main
 --------*/
+.small-box h2{
+    padding: 20px 250px 0px 0px;
+    font-size: 35px;
+}
+.small-box p{
+    padding: 30px 150px 0px 0px;
+}
 .container-box{
     display: flex;
     padding: 50px 0px;
 }
 .small-box{
     width: calc(100% - 720px);
+    
 }
 .big-box{
     width: calc(100% - 480px);
 }
+/*-------
+immagine destra
+--------*/
+
+.big-box .right-img{
+    width: 70%;
+    margin-left: 20% ;
+}
+
+/*-------
+immagine sinistra
+--------*/
+
+.big-box .left-img{
+    width: 70%;
+    margin-right: 20%;
+}
+/*-------
+parte finale main
+--------*/
+.container .giant-box h2{
+  font-size: 35px;       
+}
+.container .giant-box p{
+    padding: 20px 200px 0px;
+       text-align: center;
+  }
 .giant-box{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.star{
+    background-image: url(../img/stars.svg);  
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    width: 50%;
+}
+.star .button-mac-blue{
+    margin: 60px;
+}
+.container .giant-box h3{
+    font-size: 30px; 
+}
+
 /*-------
 footer
 --------*/
