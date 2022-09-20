@@ -86,8 +86,15 @@ main section:nth-child(2n+2){
 }
 .top-footer{
         background-color: #23272a;
-    }
-
+}
+.bottom-footer{
+    background-color: #23272a;
+}
+.wave{
+    background-image: url(../img/wave1.svg);
+    height: 60px;
+    width: 100%;
+}
 /*-------
  header
 -------*/
@@ -187,6 +194,12 @@ button{
 }
 .buttons-header{
     text-align: center;
+}
+.button-footer{
+    background-color: #7289DA;
+    
+    margin-right: 10px;
+    color: white;
 }
 /*-------
 main
@@ -311,17 +324,17 @@ footer section > div{
 }
 .footer-logo{
     display: flex;
-    width: 70px;
-    justify-content: center;
+    width: 20%;
+    justify-content: flex-start;
     align-items: center;
 }
 .footer-botton{
     display: flex;
-    width: 93px;
-    justify-content: center;
+    width: 20%;
+    justify-content: flex-end;
     align-items: center;
 }
-.bottom-footer{
-    padding-top: 30px;
-    margin-top: 2px;
+hr{
+    max-width: 1200px;
+    margin:auto
 }
