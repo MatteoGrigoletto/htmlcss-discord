@@ -83,8 +83,18 @@ Debugg
 /*-------
  header
 -------*/
+header{
+    background-color: #255EE9 ;
+}
 .top-header{
-    padding: 17px 0px;
+    padding: 17px 0px;  
+}
+.bottom-header .main-box{
+    background-image: url(../img/jumbo.png);
+    height: 440px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
 }
 .credential{
     display: flex;
@@ -93,17 +103,29 @@ Debugg
     width: 25%; 
     display: flex;
     align-items:center;
+    justify-content:center;
 }
 .col-link{
     width:50%;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
+.col-link ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+
 .col-login{
     width: 25%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items:center;
 }
 .main-box{
@@ -112,8 +134,45 @@ Debugg
     justify-content: center;
 }
 .box-header{
-    width:calc(100% - 290px);
+    width:calc(100% - 400px);
     border-radius: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+.box-header p{
+    text-align: center;
+    padding: 30px 50px 20px;
+    color: white;
+    font-size: 20px;
+}
+/*---------
+Button
+---------*/
+button{
+    border-radius: 25px;
+    border: 1px solid #255EE9 ;
+    padding: 12px;
+}
+.button-login{
+    color: black;
+    background-color: white;
+}  
+.button-mac{
+    background-color: white;
+    font-size: 18px ;
+    margin-right: 10px;
+}
+.button-browser{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.buttons-header{
+    text-align: center;
 }
 /*-------
 main
