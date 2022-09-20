@@ -41,9 +41,7 @@ Debugg
     background-color: #1e90ff;
     height: 500px;
 }
-main section:nth-child(2n+2){
-    background-color: #F6F6F6 ;
-}
+
 .debug .giant-box{
     background-color: #228b22;
     height: 900px;
@@ -54,7 +52,7 @@ main section:nth-child(2n+2){
 .debug .white-border{
     border: 2px dashed white;  
 }
-.debug .top-footer{
+ .top-footer{
     background-color: #23272a;
 }
 .debug .big-footer{
@@ -80,6 +78,16 @@ main section:nth-child(2n+2){
     background-color: #ffb6c1 ;
     height: 37px;
 }
+/*-------
+ sfondo colore
+-------*/
+main section:nth-child(2n+2){
+    background-color: #F6F6F6 ;
+}
+.top-footer{
+        background-color: #23272a;
+    }
+
 /*-------
  header
 -------*/
@@ -258,7 +266,28 @@ footer section > div{
 }
 .big-footer{
     width: calc(100% - 210px * 4);
+    padding: 40px;
 }
+.big-footer > *{
+    padding-bottom: 20px;
+}
+.big-footer h3{
+    font-size: 35px;
+    color: #7289DA;  
+}
+.big-footer img{
+    height: 15px;
+    width: 25px;
+}
+.icon-social > *{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.big-footer small{
+    color: white;
+}
+
 .small-footer{
     width: 210px;
 }
